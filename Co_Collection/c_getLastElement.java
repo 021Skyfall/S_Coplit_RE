@@ -13,6 +13,7 @@ public class c_getLastElement {
         System.out.println(c.getLastElement(x));
     }
     public String getLastElement(ArrayList<String> arrayList) {
-        return null;
+        if (arrayList.isEmpty()) return null;
+        return arrayList.get(arrayList.size()-1);
     }
 }
