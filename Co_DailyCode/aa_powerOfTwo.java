@@ -1,8 +1,8 @@
 package Co_DailyCode;
 
-public class a_powerOfTwo {
+public class aa_powerOfTwo {
     public static void main(String[] args) {
-        a_powerOfTwo asd = new a_powerOfTwo();
+        aa_powerOfTwo asd = new aa_powerOfTwo();
         System.out.println(asd.powerOfTwo(24454353453452342l));
     }
     public boolean powerOfTwo(long num) {

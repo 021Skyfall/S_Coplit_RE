@@ -1,6 +1,6 @@
 package Co_DailyCode;
 
-public class d_letterCapitalize {
+public class ad_letterCapitalize {
     public static void main(String[] args) {
         System.out.println(letterCapitalize("java  is good"));
 //        String x = "java  is good";

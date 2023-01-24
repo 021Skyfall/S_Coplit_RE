@@ -1,8 +1,8 @@
 package Co_DailyCode;
 
-public class c_firstReverse {
+public class ac_firstReverse {
     public static void main(String[] args) {
-        c_firstReverse c = new c_firstReverse();
+        ac_firstReverse c = new ac_firstReverse();
         System.out.println(c.firstReverse("code states"));
     }
     public String firstReverse(String str) {

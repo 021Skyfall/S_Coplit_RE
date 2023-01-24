@@ -1,9 +1,9 @@
 package Co_DailyCode;
 
 
-public class b_firstCharacter {
+public class ab_firstCharacter {
     public static void main(String[] args) {
-        b_firstCharacter b = new b_firstCharacter();
+        ab_firstCharacter b = new ab_firstCharacter();
         System.out.println(b.firstCharacter("hello world"));
     }
     public String firstCharacter(String str) {
