@@ -4,7 +4,7 @@ public class ah_insertDash {
     public static void main(String[] args) {
         System.out.println(insertDash("454793"));
     }
-    public static String insertDash(String str) {
+    private static String insertDash(String str) {
         if (str.isEmpty()) return null;
         // "연속된"
         // 결과를 담을 변수에 맨 str 첫번째 자리는 넣어야함 "연속된"

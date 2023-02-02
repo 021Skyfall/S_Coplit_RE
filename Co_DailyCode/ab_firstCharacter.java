@@ -6,7 +6,7 @@ public class ab_firstCharacter {
         ab_firstCharacter b = new ab_firstCharacter();
         System.out.println(b.firstCharacter("hello world"));
     }
-    public String firstCharacter(String str) {
+    private String firstCharacter(String str) {
         // if (str.isEmpty()) return "";
         // String[] x = str.split(" ");
         // String y = "";

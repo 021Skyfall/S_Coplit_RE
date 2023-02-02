@@ -5,7 +5,7 @@ public class ac_firstReverse {
         ac_firstReverse c = new ac_firstReverse();
         System.out.println(c.firstReverse("code states"));
     }
-    public String firstReverse(String str) {
+    private String firstReverse(String str) {
         StringBuilder x = new StringBuilder(str);
         return x.reverse().toString();
     }

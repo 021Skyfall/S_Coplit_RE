@@ -4,7 +4,7 @@ public class ag_ABCheck {
     public static void main(String[] args) {
         System.out.println(ABCheck("lane Borrowed"));
     }
-    public static boolean ABCheck(String str) {
+    private static boolean ABCheck(String str) {
         // 대소 구분 없애기 위한 소문자로 변경
         str = str.toLowerCase();
         // a로 시작 b로 시작 혹은 반대인 문자열의 길이가 최소 5니까

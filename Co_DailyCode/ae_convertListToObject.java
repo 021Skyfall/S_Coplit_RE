@@ -12,7 +12,7 @@ public class ae_convertListToObject {
         };
         System.out.println(convertListToHashMap(arr));
     }
-    public static HashMap<String, String> convertListToHashMap(String[][] arr) {
+    private static HashMap<String, String> convertListToHashMap(String[][] arr) {
         // 담아줄 해쉬맵
         HashMap<String, String> map = new LinkedHashMap<>();
         // 아 빈배열 엣지 케이스를 못봤다

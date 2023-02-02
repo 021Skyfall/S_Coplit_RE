@@ -5,7 +5,7 @@ public class aa_powerOfTwo {
         aa_powerOfTwo asd = new aa_powerOfTwo();
         System.out.println(asd.powerOfTwo(24454353453452342l));
     }
-    public boolean powerOfTwo(long num) {
+    private boolean powerOfTwo(long num) {
         if (num == 1) return true;
         long x = 2;
         while (x < num) {

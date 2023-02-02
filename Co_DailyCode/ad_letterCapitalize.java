@@ -8,7 +8,7 @@ public class ad_letterCapitalize {
 //
 //        System.out.println();
     }
-    public static String letterCapitalize(String str) {
+    private static String letterCapitalize(String str) {
         String[] arr = str.split(" ");
         String result = "";
 //        for (String s : arr) {
