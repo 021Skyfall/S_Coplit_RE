@@ -1,6 +1,6 @@
 package Co_DailyCode;
 
-public class am_ {
+public class am_Modulo {
     public static void main(String[] args) {
         System.out.println(modulo(25, 4));
     }
@@ -22,6 +22,5 @@ public class am_ {
         // 여튼 num1 이 num2 보다 작아지면 while 문 탈출하게 되니까
         // 나머지 구하기가 됨
         // 이 간단한 알고리즘이 생각안나서 mod 함수로 풀다니..
-
     }
 }
