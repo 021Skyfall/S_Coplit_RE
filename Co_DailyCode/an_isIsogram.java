@@ -22,9 +22,7 @@ public class an_isIsogram {
         // 단, 공백을 연속으로 입력 받으면 false 임 -> 근데 입력 받는 문자는 무조건 공백이 없는 문자열임
         return true;
     }
-}
-// 아니 근데 리퍼런스 코드 보니까 뭔 해쉬맵을 썼네
-class reference {
+    // 아니 근데 리퍼런스 코드 보니까 뭔 해쉬맵을 썼네
     private static boolean hash(String str) {
         // 알파벳 저장할 해쉬맵 선언
         HashMap<Character, String> cache = new HashMap<>();
@@ -40,6 +38,7 @@ class reference {
         }
         return true;
     }
+    // 근데 이거 딱히 키가 중복안되는 특성을 사용할 필요도 없고
+    // 어차피 순회하면서 if 에 걸리면 false 리턴이기 때문에 굳이?긴 하다...
 }
-// 근데 이거 딱히 키가 중복안되는 특성을 사용할 필요도 없고
-// 어차피 순회하면서 if 에 걸리면 false 리턴이기 때문에 굳이?긴 하다...
+
