@@ -8,7 +8,7 @@ public class as_largestProductOfThree {
         System.out.println(largestProductOfThree(new int[]{2,1,3,7}));
 
     }
-    public static int largestProductOfThree(int[] arr) {
+    private static int largestProductOfThree(int[] arr) {
 //        int result;
 //        int max;
 //        int min;

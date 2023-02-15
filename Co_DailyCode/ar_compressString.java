@@ -4,7 +4,7 @@ public class ar_compressString {
     public static void main(String[] args) {
         System.out.println(compressString("wwwggoppopppp"));
     }
-    public static String compressString(String str) {
+    private static String compressString(String str) {
 //        // 관리 편하게 스트링 빌더
 //        StringBuilder sb = new StringBuilder();
 //        // 반복으로 해당 문자 개수 저장
