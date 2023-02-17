@@ -6,17 +6,36 @@ public class au_fibonacci {
     public static void main(String[] args) {
         System.out.println(fibonacci(9));
     }
-    private static int fibonacci(int num) {
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(0);
-        list.add(1);
-        return aux(list,num);
-    }
-    private static int aux(ArrayList<Integer> list, int num) {
-        if (list.size() <= num) {
-            list.add(aux(list,num-1) + aux(list,num-2));
+//    private static int fibonacci(int num) {
+//        ArrayList<Integer> list = new ArrayList<>();
+//        list.add(0);
+//        list.add(1);
+//        return aux(list,num);
+//    }
+//    private static int aux(ArrayList<Integer> list, int num) {
+//        if (list.size() <= num) {
+//            list.add(aux(list,num-1) + aux(list,num-2));
+//        }
+//        return list.get(num);
+//    }
+
+    // ChatGPT 가 알려준 위와 동일한 시간복잡도 O(N) 을 가진 소스코드
+    // 다만, 위에서 aux 함수를 구현해 메모이제이션 하는 것은 반복적인 계산을 하는 프로그래밍에 좋다고 한다.
+    private static int fibonacci(int n) {
+        if (n == 0) {
+            return 0;
+        } else if (n == 1) {
+            return 1;
+        } else {
+            int a = 0;
+            int b = 1;
+            for (int i = 2; i <= n; i++) {
+                int c = a + b;
+                a = b;
+                b = c;
         }
-        return list.get(num);
+            return b;
+        }
     }
 }
 // 함수를 하나 더 구현하네
