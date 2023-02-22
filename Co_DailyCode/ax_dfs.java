@@ -1,7 +1,6 @@
 package Co_DailyCode;
 
 import java.util.ArrayList;
-import java.util.Stack;
 
 public class ax_dfs {
     public static void main(String[] args) {
