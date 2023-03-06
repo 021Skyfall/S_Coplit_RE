@@ -1,4 +1,4 @@
 package Co_DailyCode;
 
-public class bf_ {
+public class bi_ {
 }
